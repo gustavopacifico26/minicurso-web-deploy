@@ -28,7 +28,7 @@ export function Home() {
                     </div>
                 </div>
                 
-                <div className="flex justify-content-between flex-wrap w-full m-4">
+                <div className="flex justify-content-center flex-wrap w-full m-4">
                     <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
                         1
                     </div>
@@ -47,6 +47,33 @@ export function Home() {
                 </div>
             </div>
             <div className={style}>
+                <div className="flex justify-content-center flex-wrap w-full m-4">
+                    <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
+                        1
+                    </div>
+                    <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
+                        2
+                    </div>
+                </div>
+
+                <div className="flex justify-content-between flex-wrap w-full m-4">
+                    <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
+                        1
+                    </div>
+                    <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
+                        2
+                    </div>
+                    <div className="flex align-items-center justify-content-center w-8rem h-8rem bg-primary font-bold border-round m-2">
+                        3
+                    </div>
+                </div>
+
+                <div className="flex justify-content-center flex-wrap w-full m-4">
+                    <div className="flex align-items-center justify-content-center w-30rem h-8rem bg-primary font-bold border-round m-2">
+                        1
+                    </div>
+                </div>
+
             </div>
         </div>
     )
